@@ -8,7 +8,7 @@ import com.gfl2.cmt.entity.CUser;
 @Repository
 public interface CUserRepository extends JpaRepository<CUser, Long> {
 	
-	public CUser findByUsername(String username);
+	public CUser findByName(String username);
 	
 	public CUser findByUid(String uid);
 	

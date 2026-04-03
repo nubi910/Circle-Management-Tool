@@ -1,0 +1,12 @@
+# --- Backend (CMT) ---
+CMT/build/
+CMT/.gradle/
+CMT/bin/
+
+# --- Frontend (CMTF) ---
+CMTF/node_modules/
+CMTF/dist/
+CMTF/.env.local
+
+# --- Common ---
+.DS_Store

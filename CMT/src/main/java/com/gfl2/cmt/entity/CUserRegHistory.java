@@ -11,7 +11,6 @@ import jakarta.persistence.Table;
 import lombok.Data;
 
 @Entity
-@Table(name = "TB_C_USER_REG_HISTORY")
 @Data
 public class CUserRegHistory {
 

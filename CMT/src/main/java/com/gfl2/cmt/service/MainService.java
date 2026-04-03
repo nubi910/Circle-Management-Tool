@@ -4,14 +4,13 @@ import org.springframework.stereotype.Service;
 
 import com.gfl2.cmt.repository.CircleRepository;
 
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 
 @Service
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class MainService {
 	
-	private CircleRepository mainRepository;
+	private final CircleRepository mainRepository;
 	
 	
 	public int insertGunSmoke() {

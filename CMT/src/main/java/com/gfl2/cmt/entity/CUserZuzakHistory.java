@@ -12,7 +12,6 @@ import jakarta.persistence.Table;
 import lombok.Data;
 
 @Entity
-@Table(name = "TB_C_USER_ZUZAK_HISTORY")
 @Data
 public class CUserZuzakHistory {
 	
@@ -31,7 +30,6 @@ public class CUserZuzakHistory {
 	boolean isZuzak;
 	
 	@ManyToOne(fetch = FetchType.LAZY)
-	@Column(name = "GUN_SMOKE_ID", nullable = true, insertable = true)
 	GunSmoke gunSmoke;
 
 }
